@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — Bare Reps</title>
+  <meta name="description" content="Get help with Bare Reps. Contact support or join the community." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8LKJDRHXTB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8LKJDRHXTB');
+  </script>
+
+  <style>
+    .support-hero {
+      padding: 120px 24px 60px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .support-eyebrow {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #6e6e73;
+      margin-bottom: 14px;
+    }
+    .support-hero h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      line-height: 1.05;
+      color: #1d1d1f;
+      margin-bottom: 18px;
+    }
+    .support-hero p {
+      font-size: 18px;
+      color: #6e6e73;
+      line-height: 1.55;
+      max-width: 500px;
+    }
+    .support-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      max-width: 720px;
+      margin: 48px auto 0;
+      padding: 0 24px;
+    }
+    @media (max-width: 600px) { .support-cards { grid-template-columns: 1fr; } }
+    .support-card {
+      background: #f5f5f7;
+      border-radius: 18px;
+      padding: 28px;
+      border: 1px solid #e5e5ea;
+    }
+    .support-card-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: #fff;
+      border: 1px solid #e5e5ea;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+      font-size: 18px;
+    }
+    .support-card h2 {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      color: #1d1d1f;
+      margin-bottom: 8px;
+    }
+    .support-card p {
+      font-size: 14px;
+      color: #6e6e73;
+      line-height: 1.55;
+      margin-bottom: 16px;
+    }
+    .support-card a.card-link {
+      font-size: 14px;
+      font-weight: 600;
+      color: #2D6A4F;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .support-card a.card-link:hover { text-decoration: underline; }
+
+    .faq-section {
+      max-width: 720px;
+      margin: 72px auto 0;
+      padding: 0 24px 80px;
+    }
+    .faq-section h2 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.6px;
+      color: #1d1d1f;
+      margin-bottom: 32px;
+    }
+    .faq-item {
+      border-top: 1px solid #e5e5ea;
+      padding: 20px 0;
+    }
+    .faq-item:last-child { border-bottom: 1px solid #e5e5ea; }
+    details summary {
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 17px;
+      font-weight: 600;
+      color: #1d1d1f;
+      letter-spacing: -0.2px;
+    }
+    details summary::-webkit-details-marker { display: none; }
+    details summary::after {
+      content: '+';
+      font-size: 22px;
+      font-weight: 300;
+      color: #aeaeb2;
+      transition: transform 200ms;
+    }
+    details[open] summary::after { transform: rotate(45deg); }
+    details p {
+      margin-top: 12px;
+      font-size: 15px;
+      color: #6e6e73;
+      line-height: 1.6;
+      max-width: 580px;
+    }
+    details a { color: #2D6A4F; }
+    details a:hover { text-decoration: underline; }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #6e6e73;
+      margin-bottom: 24px;
+    }
+    .back-link:hover { color: #1d1d1f; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <span class="nav-logo"><img src="assets/icon.png" alt="" class="nav-icon" />Bare Reps</span>
+    </div>
+  </nav>
+
+  <div class="support-hero">
+    <a href="index.html" class="back-link">← Back</a>
+    <div class="support-eyebrow">Support</div>
+    <h1>We're here to help.</h1>
+    <p>Get in touch by email or join the community on Discord. We usually respond within a day.</p>
+  </div>
+
+  <div class="support-cards">
+    <div class="support-card">
+      <div class="support-card-icon">✉️</div>
+      <h2>Email support</h2>
+      <p>Questions about the app, billing, or anything else — email us directly.</p>
+      <a class="card-link" href="mailto:hello@jedilabs.io">hello@jedilabs.io →</a>
+    </div>
+    <div class="support-card">
+      <div class="support-card-icon">💬</div>
+      <h2>Discord community</h2>
+      <p>Talk to other users, share feedback, and follow development. Open to everyone.</p>
+      <a class="card-link" href="https://discord.gg/6h7Mgrwp" target="_blank" rel="noopener">Join the server →</a>
+    </div>
+  </div>
+
+  <div class="faq-section">
+    <h2>Common questions</h2>
+
+    <div class="faq-item">
+      <details>
+        <summary>How do I restore my purchase?</summary>
+        <p>Open Bare Reps → Profile tab → scroll down → tap "Restore Purchase". Make sure you're signed in to the same Apple ID used to originally subscribe.</p>
+      </details>
+    </div>
+    <div class="faq-item">
+      <details>
+        <summary>How do I cancel my subscription?</summary>
+        <p>Subscriptions are managed by Apple. Go to iOS Settings → your name → Subscriptions → Bare Reps → Cancel. Your Pro access continues until the end of the current billing period.</p>
+      </details>
+    </div>
+    <div class="faq-item">
+      <details>
+        <summary>Will my progress be lost if I delete the app?</summary>
+        <p>Yes — Bare Reps stores everything locally on your device with no cloud backup. Deleting the app permanently removes your workout history and streak.</p>
+      </details>
+    </div>
+    <div class="faq-item">
+      <details>
+        <summary>Will there be an Android version?</summary>
+        <p>Not at launch. V1 is iOS only. Once the iOS app covers its costs, Android is next.</p>
+      </details>
+    </div>
+    <div class="faq-item">
+      <details>
+        <summary>Something in the app is broken. How do I report it?</summary>
+        <p>Email <a href="mailto:hello@jedilabs.io">hello@jedilabs.io</a> with a description and your iOS version. Screenshots help. We'll get back to you fast.</p>
+      </details>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <span class="footer-logo">Bare Reps</span>
+      <div class="footer-links">
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:hello@jedilabs.io">Contact</a>
+        <a href="https://discord.gg/6h7Mgrwp" target="_blank" rel="noopener">Discord</a>
+      </div>
+      <span class="footer-copy">© 2026 Jedi Advisory</span>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    });
+  </script>
+
+</body>
+</html>
